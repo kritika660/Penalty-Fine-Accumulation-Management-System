@@ -2,7 +2,7 @@
 -- PFAMS Database Setup Script
 -- =========================================
 
-DROP DATABASE IF EXISTS PFAMS;
+DROP DATABASE IF EXISTS PFAMS; 
 CREATE DATABASE PFAMS;
 USE PFAMS;
 
