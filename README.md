@@ -6,7 +6,7 @@ A Java desktop application for managing penalties and fines — with both **GUI 
 
 ## Features
 
-### Three User Roles
+### Three User Roles 
 
 | Role | Capabilities |
 |------|-------------|
