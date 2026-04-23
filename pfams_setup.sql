@@ -7,7 +7,7 @@ CREATE DATABASE PFAMS;
 USE PFAMS;
 
 -- -----------------------------------------
--- 1. ROLE
+-- 1. ROLE 
 
 CREATE TABLE Role (
     RoleID INT PRIMARY KEY AUTO_INCREMENT,
