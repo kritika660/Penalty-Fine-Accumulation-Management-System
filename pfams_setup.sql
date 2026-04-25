@@ -459,7 +459,7 @@ END$$
 -- SELECT getCurrentFineBalance('rahul@gmail.com') AS Balance;
 
 
--- Function 2: Count total number of violations for a given account
+-- Function 2: Count total number of violations for a given account 
 CREATE FUNCTION countUserViolations(acc_id INT)
 RETURNS INT
 READS SQL DATA
