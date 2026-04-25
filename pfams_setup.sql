@@ -386,7 +386,7 @@ JOIN Fine f ON v.ViolationID = f.ViolationID
 LEFT JOIN Penalty p ON f.FineID = p.FineID
 GROUP BY u.UserID, u.FirstName, u.LastName;
 
--- View 3: Overdue fines with days overdue
+-- View 3: Overdue fines with days overdue 
 CREATE VIEW OverdueFines AS
 SELECT FineID, DATEDIFF(CURDATE(), DueDate) AS OverdueDays
 FROM Fine
